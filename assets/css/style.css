@@ -5733,9 +5733,16 @@ header.simple-header .path a:after {
   margin-top: -60px;
   z-index: 4;
 }
-
+.round-head h2{
+  font-size: 25px;
+}
 .services .item {
   position: relative;
+  background: #f7e5e5;
+    padding: 30px 30px 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 20px 40px rgb(60 63 130 / 7%);
+    box-shadow: 0px 20px 40px rgb(60 63 130 / 7%);
 }
 
 .services .item .icon {
@@ -10255,7 +10262,7 @@ footer .logo {
 }
 
 .footer-half .right-half .logo {
-  width: 200px;
+  width: 70px;
 }
 
 .footer-half .right-half .social a {
@@ -11185,3 +11192,56 @@ body.index-main .bg-gray {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+.wrapper{
+  background-color: #e4e5ed;
+  padding: 30px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 20px 40px rgb(60 63 130 / 7%);
+  box-shadow: 0px 20px 40px rgb(60 63 130 / 7%);
+}
+.ul-wrapper li{
+    position: relative;
+    padding-left: 20px;
+   text-align: left;
+   padding-bottom: 25px;
+}
+.ul-wrapper li img{
+ width: 20px!important;
+ margin-right: 14px;
+}
+.nav-tabs li{
+    width: 100%;
+}
+.nav-tabs li button.active{
+  border: none;
+  border-left: 3px solid #d38718!important;
+}
+.nav-tabs li button:focus, .nav-tabs li button:hover{
+  border: none;
+}
+.nav-tabs li button{
+  border: none!important;
+  padding: 0px 20px;
+  border-radius: 0!important;
+  margin: 20px 0;
+  border-left: 3px solid #f7e5e5!important;
+}
+.tab-section .nav-tabs{
+  display: inline-block;
+  width: 50%;
+}
+
+.tab-section .tab-content{
+  display: inline-block;
+  width: 50%;
+}
+.gallery-home{
+  background-color: #ebeaea;
+}
+.gallery-home img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* .gallery-home .grid{
+  display: grid;
+} */
